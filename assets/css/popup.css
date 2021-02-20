@@ -1,0 +1,47 @@
+.container {
+    padding: 15px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    transition: all. 2s;
+}
+
+.field label {
+    padding-right: 10px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: .5;
+}
+
+#toggleBtn {
+    width: 70px;
+    height: 30px;
+}
+
+#toggleBtn::before {
+    height: calc(70px / 3.2);
+    width: calc(70px / 3.2);
+}
+
+#toggleBtn.toggle-off-btn::before {
+    transform: translateX(calc(70px * -.07));
+}
+
+#toggleBtn.toggle-on-btn::before {
+    transform: translateX(calc(70px * .45));
+}
+
+.message {
+    color: #ff3434;
+    font-size: 13px;
+}
+  

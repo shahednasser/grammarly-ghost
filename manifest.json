@@ -1,0 +1,32 @@
+{
+    "name": "Grammarly with Ghost",
+    "version": "1.0.0",
+    "description": "Allow Grammarly to work on Ghost's editor",
+    "manifest_version": 3,
+    "action": {
+      "default_icon": {
+        "16": "assets/images/icon16.png",
+        "24": "assets/images/icon24.png",
+        "32": "assets/images/icon32.png"
+      },
+      "default_title": "Grammarly With Ghost",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "run_at": "document_end",
+          "js": ["assets/js/contentScript.js"]
+        }
+    ],
+    "icons": {
+        "16": "/assets/images/icon16.png",
+        "32": "/assets/images/icon32.png",
+        "48": "/assets/images/icon48.png",
+        "128": "/assets/images/icon128.png"
+    }
+  }
