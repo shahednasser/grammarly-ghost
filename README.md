@@ -17,6 +17,8 @@ It should be noted that the reason behind Grammarly not working with Ghost's edi
 
 ## The Extension
 
+**Note: This extension assumes you already have the Grammarly extension installed in your browser**
+
 So, the extension basically detects the element with the attribute `data-gramm="false"` and removes that, while also doing some check on the height and width of the element (you can read more about it [here](https://support.grammarly.com/hc/en-us/articles/115000090392-I-do-not-see-the-G-icon-on-a-certain-web-page-or-in-a-certain-text-field-but-see-it-on-other-web-pages-))
 
 Once you install the extension, you need to open your Ghost blog, then click on the icon of the extension. After that you can enable the extension to work on this host or domain. Once you enable it, it will do the work specified above whenever necessary. If you do not enable it for the domain you need it to work on, it will not do anything.
