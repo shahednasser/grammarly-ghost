@@ -17,7 +17,7 @@ You can read more about it in these links:
 
 While looking through the above links, I saw different people that you can get Grammarly to work with Ghost's editor by simply removing the attribute `data-gramm="false"`. I tried doing that with my own blog and it worked!
 
-It should be noted that the reason behind Grammarly not working with Ghost's editor is due to it not supporting it. So, I am not sure if this solution will cause any problems on your side. For me, it works perfectly well.
+It should be noted that the reason behind Grammarly not working with Ghost's editor is due to it not supporting it. So, I am not sure if this solution will cause any problems on your side. For me, it works perfectly well. There's an issue detailed [here](https://gitmemory.com/issue/TryGhost/Ghost/11252/671525102) about clicking on "Edit in Grammarly," however, I couldn't reproduce it.
 
 ## The Extension
 
