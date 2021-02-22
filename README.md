@@ -1,5 +1,9 @@
 # Grammarly with Ghost
-Allow Grammarly to work on Ghost's editor
+An extension that allows Grammarly to work on Ghost's editor
+
+## Download Extension
+
+You can download the extension on Chrome [here](https://chrome.google.com/webstore/detail/grammarly-with-ghost/iakfoofepmfjafjepidembmheemidbdb?hl=en&authuser=1)
 
 ## Why is This Necessary
 If you use [Ghost](https://ghost.org/) for your blogging needs and you need Grammarly as well to make your life easier, you probably noticed that Grammarly does not work with Ghost's editor Koenig. 
