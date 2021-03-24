@@ -6,7 +6,7 @@ const inputElm = document.getElementById('active'),
 let domain = "";
 
 //get current domain 
-chrome.tabs.query({active: true}, function (tabs) {
+chrome.tabs.query({active: true, lastFocusedWindow: true}, function (tabs) {
     if (tabs.length && tabs[0].url) {
         const url = new URL(tabs[0].url);
         domain = url.host;
