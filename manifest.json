@@ -1,6 +1,6 @@
 {
     "name": "Grammarly with Ghost",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Allow Grammarly to work on Ghost's editor",
     "manifest_version": 3,
     "action": {

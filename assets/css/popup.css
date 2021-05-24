@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    min-width: 300px;
+    min-height: 200px;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
 .container {
     padding: 15px;
 }
@@ -6,7 +22,9 @@
     display: flex;
     align-items: center;
     font-size: 17px;
-    transition: all. 2s;
+    transition: all .2s;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 .field label {
@@ -43,5 +61,41 @@
 .message {
     color: #ff3434;
     font-size: 13px;
+    text-align: center;
 }
-  
+
+footer {
+    text-align: center;
+}
+
+.separator {
+    display: block;
+    width: 55%;
+    margin: 10px auto;
+    height: 1px;
+    background-color: #f1f1f1;
+}
+
+.made {
+    font-size: 0.9rem;
+    margin-bottom: 13px;
+    display: block;
+}
+
+.made a, .made a:hover, .made a:visited {
+    color: #55a6e0;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links a, .social-links a:hover {
+    text-decoration: none;
+}
+
+.social-image {
+    width: 18px;
+    height: 18px;
+}
